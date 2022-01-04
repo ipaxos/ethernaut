@@ -29,9 +29,7 @@ def attack():
     else:
 
         web3 = Web3(
-            Web3.HTTPProvider(
-                Web3.HTTPProvider(config["networks"][network.show_active()]["infura"])
-            )
+            Web3.HTTPProvider(config["networks"][network.show_active()]["infura"])
         )
 
         motorbike = Contract.from_abi(

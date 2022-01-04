@@ -12,7 +12,7 @@ networks:
   rinkeby:
     verify: False
     motorbike: "0x50f68cAd67F12a3eA065218D4e2f2008C38Fb930"
-    infura: ${INFURA}
+    infura: ${RINKEBY_INFURA}
 wallets:
   from_key: ${PRIVATE_KEY}
 dotenv: ../.env

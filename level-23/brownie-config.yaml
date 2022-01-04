@@ -12,7 +12,7 @@ networks:
   rinkeby:
     verify: False
     dex: "0xF145A230372fD5fdb0c9afA83fdceaeF986BaDe3"
-    infura: ${INFURA}
+    infura: ${RINKEBY_INFURA}
 wallets:
   from_key: ${PRIVATE_KEY}
 dotenv: ../.env

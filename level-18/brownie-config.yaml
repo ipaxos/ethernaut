@@ -12,7 +12,7 @@ networks:
   rinkeby:
     verify: False
     magicnum: "0x2fB1cCd590562Ec4657Df5e6A6f40921f57f66aF"
-    infura: ${INFURA}
+    infura: ${RINKEBY_INFURA}
 wallets:
   from_key: ${PRIVATE_KEY}
 dotenv: ../.env

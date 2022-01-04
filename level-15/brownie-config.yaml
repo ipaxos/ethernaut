@@ -12,7 +12,7 @@ networks:
   rinkeby:
     verify: False
     naughtcoin: "0xB95F1D4adAC87f7c4c626185340f409E270921A6"
-    infura: ${INFURA}
+    infura: ${RINKEBY_INFURA}
 wallets:
   from_key: ${PRIVATE_KEY}
 dotenv: ../.env

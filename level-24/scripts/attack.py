@@ -22,7 +22,7 @@ def attack():
     else:
 
         web3 = Web3(
-            Web3.HTTPProvider(config["networks"][network.show_active()]["infura"])
+            config["networks"][network.show_active()]["infura"]
         )
 
         wallet = Contract.from_abi(

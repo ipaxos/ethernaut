@@ -1,0 +1,12 @@
+networks:
+  development:
+    verify: False
+  ganache:
+    verify: False
+  rinkeby:
+    verify: False
+    telephone: "0x92652723996ca14077be03C6712AB1F2218a4286"
+    infura: ${RINKEBY_INFURA}
+wallets:
+  from_key: ${PRIVATE_KEY}
+dotenv: ../.env

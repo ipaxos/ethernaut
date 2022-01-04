@@ -6,7 +6,7 @@ networks:
   rinkeby:
     verify: False
     preservation: "0x751A3493bC235aD4C361209f918a8929aa247559"
-    infura: ${INFURA}
+    infura: ${RINKEBY_INFURA}
 wallets:
   from_key: ${PRIVATE_KEY}
 dotenv: ../.env

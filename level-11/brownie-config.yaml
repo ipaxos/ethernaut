@@ -6,7 +6,7 @@ networks:
   rinkeby:
     verify: False
     elevator: "0x8D83DeE8415Ad5ac637774b0284261445B2A7E4a"
-    infura: ${INFURA}
+    infura: ${RINKEBY_INFURA}
 wallets:
   from_key: ${PRIVATE_KEY}
 dotenv: ../.env

@@ -28,7 +28,7 @@ def attack():
 
         web3 = Web3(
             Web3.HTTPProvider(
-                Web3.HTTPProvider(config["networks"][network.show_active()]["infura"])
+                config["networks"][network.show_active()]["infura"]
             )
         )
 

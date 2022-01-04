@@ -12,7 +12,7 @@ networks:
   rinkeby:
     verify: False
     gatekeeper: "0x9dF7a9A5957f7fd887837633b644fD1776F0dc76"
-    infura: ${INFURA}
+    infura: ${RINKEBY_INFURA}
 wallets:
   from_key: ${PRIVATE_KEY}
 dotenv: ../.env

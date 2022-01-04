@@ -6,7 +6,7 @@ networks:
   rinkeby:
     verify: False
     shop: "0x9FB4C1ddBFDd20D018fDb0bE354454b630b55Fc4"
-    infura: ${INFURA}
+    infura: ${RINKEBY_INFURA}
 wallets:
   from_key: ${PRIVATE_KEY}
 dotenv: ../.env

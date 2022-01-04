@@ -13,7 +13,7 @@ networks:
     verify: False
     wallet: "0xCB0FEE44482CB599E44958946B7F12cc9D376da9"
     proxy: "0xCB0FEE44482CB599E44958946B7F12cc9D376da9"
-    infura: ${INFURA}
+    infura: ${RINKEBY_INFURA}
 wallets:
   from_key: ${PRIVATE_KEY}
 dotenv: ../.env
