@@ -60,6 +60,8 @@ def attack():
             else "Attack was not successful"
         )
 
+    print(account)
+
 
 def main():
     attack()
