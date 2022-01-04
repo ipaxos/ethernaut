@@ -1,0 +1,12 @@
+networks:
+  development:
+    verify: False
+  ganache:
+    verify: False
+  rinkeby:
+    verify: False
+    privacy: "0xFC1aC1a4BE3FF08389aD3Ef5c54d87Fc075805d5"
+    infura: ${INFURA}
+wallets:
+  from_key: ${PRIVATE_KEY}
+dotenv: ../.env

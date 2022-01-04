@@ -1,0 +1,18 @@
+dependencies:
+  - OpenZeppelin/openzeppelin-contracts@3.4.0
+compiler:
+  solc:
+    remappings:
+      - "@openzeppelin=OpenZeppelin/openzeppelin-contracts@3.4.0"
+networks:
+  development:
+    verify: False
+  ganache:
+    verify: False
+  rinkeby:
+    verify: False
+    naughtcoin: "0xB95F1D4adAC87f7c4c626185340f409E270921A6"
+    infura: ${INFURA}
+wallets:
+  from_key: ${PRIVATE_KEY}
+dotenv: ../.env

@@ -1,0 +1,12 @@
+networks:
+  development:
+    verify: False
+  ganache:
+    verify: False
+  rinkeby:
+    verify: False
+    token: "0x312E9031471A127A964eDdD81653C68A210bfE4d"
+    infura: ${INFURA}
+wallets:
+  from_key: ${PRIVATE_KEY}
+dotenv: ../.env
