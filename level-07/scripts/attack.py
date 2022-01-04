@@ -1,5 +1,5 @@
 from brownie import Attack, Force, network, config, Contract
-from scripts.helpful_scripts import get_account, LOCAL_BLOCKCHAIN_ENVIRONMENTS
+from ...helpful_scripts import get_account, LOCAL_BLOCKCHAIN_ENVIRONMENTS
 from web3 import Web3
 
 
