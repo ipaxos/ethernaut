@@ -1,10 +1,5 @@
 networks:
-  development:
-    verify: False
-  ganache:
-    verify: False
   rinkeby:
-    verify: False
     shop: "0x9FB4C1ddBFDd20D018fDb0bE354454b630b55Fc4"
     infura: ${RINKEBY_INFURA}
 wallets:

@@ -5,12 +5,7 @@ compiler:
     remappings:
       - "@openzeppelin=OpenZeppelin/openzeppelin-contracts@3.4.0"
 networks:
-  development:
-    verify: False
-  ganache:
-    verify: False
   rinkeby:
-    verify: False
     gatekeeper: "0x9dF7a9A5957f7fd887837633b644fD1776F0dc76"
     infura: ${RINKEBY_INFURA}
 wallets:

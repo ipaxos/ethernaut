@@ -1,10 +1,5 @@
 networks:
-  development:
-    verify: False
-  ganache:
-    verify: False
   rinkeby:
-    verify: False
     king: "0x69486e1b07dD62e1b6694a96c9a126CeAbAd1554"
     infura: ${RINKEBY_INFURA}
 wallets:

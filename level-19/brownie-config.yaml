@@ -1,10 +1,5 @@
 networks:
-  development:
-    verify: False
-  ganache:
-    verify: False
   rinkeby:
-    verify: False
     codex: "0x02E136b889EdAf0370bBcB88d278065825ebFb01"
     infura: ${RINKEBY_INFURA}
 wallets:
