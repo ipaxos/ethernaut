@@ -2,7 +2,7 @@
 
 ![Ethernaut](ethernaut.png)
 
-First, create a Infura Rinkeby project https://infura.io/dashboard and add the https endpoint to the .env file.
+First, create an Infura Rinkeby project at https://infura.io and add the https endpoint to the .env file.
 
 * Change directory to a specific level AND update `brownie-config.yaml` with the Ethernaut instance address:
 
