@@ -1,8 +1,10 @@
 ## Ethernaut using Brownie/Python3
 
+![Ethernaut](ethernaut.png)
+
 First, create a Infura Rinkeby project https://infura.io/dashboard and add the https endpoint to the .env file.
 
-* Change directory to a specific level and update `brownie-config.yaml` with the Ethernaut instance address:
+* Change directory to a specific level AND update `brownie-config.yaml` with the Ethernaut instance address:
 
 ```
 cd level-25
@@ -19,3 +21,6 @@ brownie run scripts/attack.py
 ```
 brownie run scripts/attack.py --network rinkeby
 ```
+
+
+
